@@ -22,8 +22,8 @@
     justify-content: space-between;
     text-align: center;
     align-items: center;
-    background: black;
-    background-size: 100%;
+    background-color: lightblue;
+    width: 100%;
    }
 
   .nav-title{
@@ -38,6 +38,7 @@ nav ul{
     margin-right: 30px;
     text-align: center;
     align-items: center;
+    margin-left: 300px;
 }
 nav ul li{
   list-style: none;
@@ -61,4 +62,32 @@ nav ul a {
   font-weight:600;
   font-size: 1.1rem;
   text-align: center;
+}
+
+.menu-icon{
+  color: white;
+  margin-right: 30px;
+  display: none;
+  
+}
+
+/* responsive styles */
+
+@media screen and (max-width:576px) {
+  nav ul {
+    display: none;
+  }
+  
+   .nav-title{
+    color: rgb(230, 83, 60);
+    font-weight: 800;
+    font-size: 2.5rem;
+    display: flex;
+    margin-left: 50px;
+  }
+
+  .menu-icon{
+    display: block;
+    margin-right: 15%;
+  }
 }
