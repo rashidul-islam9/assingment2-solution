@@ -185,7 +185,7 @@ nav ul a {
 
 .full{
   background-color: rgb(7, 6, 6);
-  border: 2px solid red;
+  border: 1px solid black;
 }
 
 .habit-container{
@@ -229,6 +229,38 @@ nav ul a {
 
 .img-description {
   margin-top: 6px;
+}
+
+/* run section */
+
+.run-section{
+  margin: 198px 100px;
+  display: flex;
+  background-color: rgb(24, 23, 23);
+}
+.run-img{
+  width: 366px;
+  height: 312px;
+  border-radius: 16px;
+}
+
+.left-part{
+  margin-left: 54px;
+}
+
+.run-title{
+  margin-top: 41px;
+  margin-bottom: 14px;
+}
+.run-btn{
+  margin-top: 34px;
+  margin-bottom: 40PX;
+  padding: 16px 40px 16px 40px;
+}
+
+.right-part{
+  margin: 30px 32px;
+  margin-left: 175px;
 }
 
 /* responsive styles */
@@ -312,5 +344,17 @@ header{
   font-size: 0.82rem;
   margin-top: 10px;
 }
+
+.run-section{
+  margin: 198px 100px;
+  display: inline;
+  background-color: rgb(24, 23, 23);
+
+}
+.right-part{
+  margin: 30px 32px;
+  margin-left: 60px;
+}
+
 
 }
