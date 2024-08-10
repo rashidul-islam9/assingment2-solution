@@ -29,6 +29,7 @@
    header{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     background-color: rgb(27, 26, 26);
+    width: 100%;
    }
 
    .nav-bar{
@@ -180,6 +181,55 @@ nav ul a {
   color: rgba(255, 255, 255, 0.65);
 }
 
+/* habit part styles start here */
+
+.full{
+  background-color: rgb(7, 6, 6);
+  border: 2px solid red;
+}
+
+.habit-container{
+  align-items: center;
+  text-align: center;
+  margin: 198px 100px;
+  
+}
+
+.all-box{
+  display: flex;
+  justify-content: space-around;
+}
+
+.habit-title{
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.habit-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.92rem;
+  margin-top: 14px;
+}
+
+.habit-card1{
+  margin-top: 58px;
+}
+
+.image1{
+  border-radius: 100px;
+}
+
+.img-title{
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.img-description {
+  margin-top: 6px;
+}
 
 /* responsive styles */
 
@@ -244,4 +294,23 @@ nav ul a {
   margin-left: -35px;
   margin-top: 280px;
 }
+header{
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+  background-color: rgb(27, 26, 26);
+  width: 100%;
+ }
+
+ .all-box{
+  display: inline;
+  justify-content: space-around;
+}
+.habit-title{
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.habit-description{
+  font-size: 0.82rem;
+  margin-top: 10px;
+}
+
 }
