@@ -165,8 +165,8 @@ nav ul a {
 .card1{
   max-width: 100%;
   height: 96px;
-  margin-left: 250px;
-  margin-top: 150px;
+  margin-left: 75%;
+  margin-top: 55%;
   position: absolute;
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -387,4 +387,72 @@ nav ul a {
 }
 .calculate-btn>button{
   padding: 12px 30px;
+}
+
+/*  team part css starts here */
+
+.team-main{
+  max-width: 100%;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.team-title{
+  padding-top: 88px;
+  padding-bottom: 14px;
+}
+
+.team-card{
+  width: 80%;
+ margin: 0 auto;
+ margin-bottom: 88px;
+ margin-top: 58px;
+ background: rgba(255, 255, 255, 0.1);
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ padding: 20px;
+ border-radius: 12px;
+}
+
+.team-card1{
+  background-image: url(../images/trainer1.png);
+  width: 326px;
+  height: 272px;
+  margin: 10px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  
+}
+
+.team-card1-title{
+  color: white;
+  text-align: left ;
+  padding-top: 220px;
+  padding-left: 10px;
+}
+
+.team-card1-des{
+  color: rgba(255, 255, 255, 0.507);
+  text-align: left;
+  padding-left: 10px;
+}
+
+.team-card2{
+  background-image: url(../images/trainer2.png);
+}
+.team-card3{
+  background-image: url(../images/trainer3.png);
+}
+.team-card4{
+  background-image: url(../images/trainer4.png);
+}
+.team-card5{
+  background-image: url(../images/trainer5.png);
+}
+.team-card6{
+  background-image: url(../images/trainer6.png);
 }
