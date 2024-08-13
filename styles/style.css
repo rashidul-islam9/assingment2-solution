@@ -278,6 +278,7 @@ nav ul a {
   display: flex;
   background-color: rgb(24, 23, 23);
   border-radius: 10px;
+  margin-bottom: 150px;
 }
 .run-img{
   width: 366px;
@@ -306,5 +307,84 @@ nav ul a {
   padding: 5px 5px;
 }
 
-/* responsive styles */
+/* bmi part */
 
+.main-div{
+  width: 100%;
+  background-color: rgb(7, 6, 6);
+  margin: 0 auto; 
+  text-align: center;
+}
+
+.main-description{
+  margin-bottom: 88px;
+  margin-top: 14px;
+}
+
+.bmi-main-box{
+  background: rgb(34, 34, 34);
+  display: flex;
+}
+
+.bmi-left{
+   width: 50%;
+   padding-top: 52px;
+}
+
+.bmi-left-title{
+   margin-bottom: 52px;
+   font-size: 1.8rem;
+   color: white;
+   font-weight: 900;
+}
+
+.min-div{
+   padding-bottom: 133px;
+   margin-left: 189px;
+}
+
+.bmi-right{
+  width: 50%;
+  padding-top: 52px;
+}
+.bmi-right-title{
+   margin-bottom: 10px;
+   text-align: left;
+
+}
+
+.bmi-right-des{
+  margin-top: 12px;
+  text-align: left;
+}
+
+.input-field{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin-top: 34px;
+
+  
+}
+
+.input{
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  padding:13px 0;
+  margin-bottom: 10px;
+  width: 70%;
+  padding-left: 5px;
+  border-radius: 8px;
+
+}
+
+.calculate-btn{
+  padding: 8px 25px;
+  width: 50%;
+  text-align: start;
+  padding-left: 0;
+}
+.calculate-btn>button{
+  padding: 12px 30px;
+}

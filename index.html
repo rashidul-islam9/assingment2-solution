@@ -8,6 +8,19 @@
     <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet">
+      <style>
+        table,th,td{
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          border-collapse: collapse;
+          width: 8%;
+          padding: 10px;
+        }
+        table,tr,td{
+          color: rgba(255, 255, 255, 0.5);
+          font-size: 0.88rem;
+          width: 5%;
+        }
+      </style>
 </head>
 <body class="inter-font">
     <header> 
@@ -95,6 +108,54 @@
             </div>
            </div>
          </div>
+        <div class="main-div">
+          <h1 class="main-title habit-title">
+            BMI Calculator
+          </h1>
+          <p class="main-description habit-description">BMI measures body fat based on height and weight, <br> categorizing individuals into underweight, normal, overweight, or obese.</p>
+         <div class="bmi-main-box">
+          <div class="bmi-left">
+            <h2 class="bmi-left-title">BMI Calculator Chart</h2>
+            <div class="min-div">
+              <table style="width: 60%; height: 100%;">
+                <tr>
+                  <th style="color:white; font-weight: 500;">BMI</th>
+                  <th style="color:white; font-weight: 500;">Weight Status</th>
+                </tr>
+                  <td>Below 18.5</td>
+                  <td>Underweight</td>
+                 
+                <tr>
+                  <td>18.5 - 25.0</td>
+                  <td>Healthy</td>
+                </tr>
+                <tr>
+                  <td>25.0 - 29.9</td>
+                  <td>Overweight</td>
+                </tr>
+                <tr>
+                  <td>30.0 - and Above</td>
+                  <td>Obese</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="bmi-right">
+             <h2 class="bmi-right-title bmi-left-title">Calculate your BMI</h2>
+             <p class="bmi-right-des habit-description">BMI measures body fat based on height and weight, <br> categorizing individuals into underweight, normal, overweight, or obese.</p>
+             <div class="input-field">
+              <input type="text" placeholder="Height/cm" class="input">
+              <input type="text" placeholder="Weight/kg" class="input" style="margin-left: -80px;">
+              <input type="text" placeholder="Age" class="input">
+              <input type="text" placeholder="Sex" class="input sex-part" style="margin-left: -80px;">
+              <input type="text" placeholder="Select an activity factor" class="input" style="width: 147%;">
+              </div>
+              <div class="calculate-btn"><button class="primary-btn">Calculate</button></div>
+          
+            </div>
+         
+        </div>
+      </div>
     </main>
     <footer>
         
