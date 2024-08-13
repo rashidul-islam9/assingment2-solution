@@ -108,5 +108,72 @@
     width: 90%;
     height: 80%;
   }
+
+  .bmi-main-box{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bmi-left-title{
+     align-items: center;
+     text-align: center;
+    padding-left: 10px;
+     text-align: left;
+ }
+
+ .bmi-right-des{
+  margin-top: 12px;
+  text-align: center;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.input-field{
+  width: 100%;
+}
+
+.min-div{
+  padding-left: 20px;
+  margin-left: 30px;
+  width: 100%;
+}
+
+table,th,td{
+  width: 80%;
+  padding: 6px 25px;
+}
+
+.sex-part{
+  margin-left: 20px;
+}
+
+.kg{
+  margin-left: 20px;
+}
+
+
+  .team-card{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+
+  }
+
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+  }
   
+  .footer-1{
+   padding: 30px 10px;
+  }
+  
+  .footer2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+ 
+  .footer1-des{
+    margin-left: 50px;
+  }
+
   }

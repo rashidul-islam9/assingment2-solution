@@ -456,3 +456,59 @@ nav ul a {
 .team-card6{
   background-image: url(../images/trainer6.png);
 }
+
+/* footer part css */
+
+footer{
+  background: rgba(10, 10, 10, 0.836);
+  width: 100%;
+}
+.footer-main{
+  background: rgba(31, 30, 30, 0.836);
+  width: 100%;
+  display: flex;
+}
+
+.footer-1{
+  max-width: 40%;
+
+  padding-left: 50px;
+}
+
+.f1-title{
+  padding: 0px ;
+  margin: 0px;
+  
+}
+
+.footer2{
+  max-width: 30%;
+  padding-left: 60px;
+}
+
+.footer2-title{
+ color: white;
+}
+.footer3{
+  max-width: 30%;
+  padding-left: 60px;
+}
+
+.footer-container ul li{
+  list-style: none;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+.footer-container{
+  margin-top: 40px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.last-word{
+  color: rgba(255, 255, 255, 0.384);
+  text-align: center;
+  padding: 20px;
+}
