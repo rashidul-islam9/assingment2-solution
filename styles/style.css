@@ -153,7 +153,6 @@ nav ul a {
 .banner-content2{
   margin: 0 160px ;
   display: flex;
-  border: 2px solid red;
   max-width: 50%;
   position: relative;;
 }
@@ -304,6 +303,7 @@ nav ul a {
 .right-part{
   margin: 30px 32px;
   margin-left: 175px;
+  padding: 5px 5px;
 }
 
 /* responsive styles */
