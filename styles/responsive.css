@@ -98,7 +98,7 @@
    .habit-container{
     align-items: center;
     text-align: center;
-    margin: 198px 100px;
+    margin: 198px auto;
     overflow: hidden;
   }
   
@@ -176,9 +176,10 @@
   text-align: left;
 }
 
-.input-field{
-  width: 100%;
-  /* padding: 20px; */
+.input-field,
+{
+ /* padding-left: 50px; */
+ /* margin-left: 69px; */
 }
 
 .min-div{
@@ -191,9 +192,15 @@ table,th,td{
   padding: 6px 25px;
 }
 
+
 .sex-part{
-  padding-left: 20px;
+  margin-left: 20px;
+  /* padding-left: 60px; */
 }
+
+/* #pera-part{
+  margin-left: 30px;
+} */
 
 .calculate-btn{
   overflow: hidden;
@@ -215,7 +222,7 @@ table,th,td{
    grid-template-columns: repeat(1,1fr);
    overflow: hidden;
    width: 100%;
-   padding-left: 44px;
+  
 
   }
 
