@@ -3,6 +3,10 @@
     nav ul {
       display: none;
     }
+
+    .nav-bar{
+      overflow: hidden;
+    }
     
      .nav-title{
       font-weight: 800;
@@ -15,9 +19,12 @@
       display: block;
       margin-right: 30px;
     }
+/*   banner */
+
     .banner-container{
       display: flex;
       flex-direction: column;
+      overflow: hidden;
     }
     .banner-content1{
       margin-left: 20px;
@@ -45,8 +52,9 @@
       }
       .banner-content2{
         margin: 0 auto;
-        max-width: 50%;
+        width: 50%;
         margin-left: 110px;
+        
       }
       .card1{
         width: 160px;
@@ -54,6 +62,7 @@
         margin-left: 50%;
         margin-top: 80px;
         margin-right: 20%;
+        
       }
 
   .card1-title{
@@ -79,11 +88,30 @@
     background-color: rgb(27, 26, 26);
     width: 100%;
    }
+
+    /* habit part */
+
+    .full{
+      overflow: hidden;
+    }
+
+   .habit-container{
+    align-items: center;
+    text-align: center;
+    margin: 198px 100px;
+    overflow: hidden;
+  }
   
    .all-box{
     display: inline;
-    justify-content: space-around;
+    overflow: hidden;
   }
+
+  .habit-card1{
+    margin-top: 58px;
+    
+  }
+
   .habit-title{
     font-size: 2.5rem;
     font-weight: 900;
@@ -92,6 +120,8 @@
     font-size: 0.82rem;
     margin-top: 10px;
   }
+
+  /* run part */
   
   .run-section{
     margin: 198px 100px;
@@ -107,6 +137,17 @@
     overflow-x: hidden;
     width: 90%;
     height: 80%;
+  }
+
+  /* bmi part */
+
+  .bmi-right{
+    width: 100%;
+    padding-top: 52px;
+  }
+  .bmi-left{
+    width: 100%;
+    padding-top: 52px;
   }
 
   .bmi-main-box{
@@ -135,7 +176,6 @@
 .min-div{
   padding-left: 20px;
   margin-left: 30px;
-  width: 100%;
 }
 
 table,th,td{
@@ -144,19 +184,30 @@ table,th,td{
 }
 
 .sex-part{
-  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.calculate-btn{
+  overflow: hidden;
 }
 
 .kg{
-  margin-left: 20px;
+  /* padding-left: 20px; */
 }
 
+/*  team part */
 
   .team-card{
    display: grid;
    grid-template-columns: repeat(1,1fr);
    overflow: hidden;
 
+  }
+
+  /* footer part */
+
+  footer{
+    overflow: hidden;
   }
 
   .footer-container{
@@ -166,16 +217,27 @@ table,th,td{
   
   .footer-1{
    padding: 30px 10px;
+   width: 100%;
   }
   
   .footer2{
   margin-top: 20px;
   margin-bottom: 20px;
+  max-width: 100%;
+  }
+ 
+  .footer3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 100%;
   }
  
   .footer1-des{
     margin-left: 50px;
+    
   }
+
+  /* our service */
 
   .service-content{
     display: grid;
@@ -186,5 +248,4 @@ table,th,td{
     padding: 20px;
     overflow: hidden;
   }
-
-  }
+}
