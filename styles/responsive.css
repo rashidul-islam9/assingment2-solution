@@ -91,9 +91,9 @@
 
     /* habit part */
 
-    .full{
+    /* .full{
       overflow: hidden;
-    }
+    } */
 
    .habit-container{
     align-items: center;
@@ -107,6 +107,7 @@
     overflow: hidden;
   }
 
+
   .habit-card1{
     margin-top: 58px;
     
@@ -119,6 +120,11 @@
   .habit-description{
     font-size: 0.82rem;
     margin-top: 10px;
+   
+  }
+
+  .min-div{
+    margin: 0 auto;
   }
 
   /* run part */
@@ -148,6 +154,7 @@
   .bmi-left{
     width: 100%;
     padding-top: 52px;
+    margin: 0 auto;
   }
 
   .bmi-main-box{
@@ -171,10 +178,11 @@
 
 .input-field{
   width: 100%;
+  padding: 20px;
 }
 
 .min-div{
-  padding-left: 20px;
+  padding-left: 70px;
   margin-left: 30px;
 }
 
@@ -191,8 +199,13 @@ table,th,td{
   overflow: hidden;
 }
 
+/* .input-field > input{
+
+  margin-left: 50px;
+} */
+
 .kg{
-  /* padding-left: 20px; */
+  margin-right: -100px;
 }
 
 /*  team part */
@@ -201,6 +214,8 @@ table,th,td{
    display: grid;
    grid-template-columns: repeat(1,1fr);
    overflow: hidden;
+   width: 100%;
+   padding-left: 44px;
 
   }
 
@@ -247,5 +262,16 @@ table,th,td{
     justify-content: space-around;
     padding: 20px;
     overflow: hidden;
+  }
+
+  .service-card1,
+  .service-card2,
+  .service-card3,
+  .service-card4{
+    width: 300px;
+  }
+
+  .service-card2{
+    margin-bottom: 25px;
   }
 }
